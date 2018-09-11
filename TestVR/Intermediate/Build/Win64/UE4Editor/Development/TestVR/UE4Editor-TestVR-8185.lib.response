@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-TestVR-8185.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\u1141916\Desktop\GP2-NewProject\PunchyPunch\TestVR\Intermediate\Build\Win64\UE4Editor\Development\TestVR\HTTPControl.cpp.obj"
+"C:\Users\u1141916\Desktop\GP2-NewProject\PunchyPunch\TestVR\Intermediate\Build\Win64\UE4Editor\Development\TestVR\TestVR.cpp.obj"
+"C:\Users\u1141916\Desktop\GP2-NewProject\PunchyPunch\TestVR\Intermediate\Build\Win64\UE4Editor\Development\TestVR\HTTPControl.gen.cpp.obj"
+"C:\Users\u1141916\Desktop\GP2-NewProject\PunchyPunch\TestVR\Intermediate\Build\Win64\UE4Editor\Development\TestVR\TestVR.init.gen.cpp.obj"
+"C:\Users\u1141916\Desktop\GP2-NewProject\PunchyPunch\TestVR\Intermediate\Build\Win64\UE4Editor\Development\TestVR\PCLaunch.rc.res"
+/OUT:"C:\Users\u1141916\Desktop\GP2-NewProject\PunchyPunch\TestVR\Intermediate\Build\Win64\UE4Editor\Development\TestVR\UE4Editor-TestVR-8185.lib"

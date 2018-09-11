@@ -1,0 +1,24 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for hot reloading TestVREditor (changes to module files)
+  Compiling game modules for hot reload
+  Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Parsing headers for TestVREditor
+    Running UnrealHeaderTool "C:\Users\u1141916\Desktop\GP2-NewProject\PunchyPunch\TestVR\TestVR.uproject" "C:\Users\u1141916\Desktop\GP2-NewProject\PunchyPunch\TestVR\Intermediate\Build\Win64\TestVREditor\Development\TestVREditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for TestVREditor in 10.3809655 seconds
+  Building 7 actions with 8 processes...
+    [1/7] SharedPCH.Engine.cpp
+    [2/7] TestVR.cpp
+    [3/7] TestVR.init.gen.cpp
+    [4/7] HTTPControl.gen.cpp
+    [5/7] HTTPControl.cpp
+    [6/7] UE4Editor-TestVR-7297.lib
+       Creating library C:\Users\u1141916\Desktop\GP2-NewProject\PunchyPunch\TestVR\Intermediate\Build\Win64\UE4Editor\Development\TestVR\UE4Editor-TestVR-7297.lib and object C:\Users\u1141916\Desktop\GP2-NewProject\PunchyPunch\TestVR\Intermediate\Build\Win64\UE4Editor\Development\TestVR\UE4Editor-TestVR-7297.exp
+    [7/7] UE4Editor-TestVR-7297.dll
+       Creating library C:\Users\u1141916\Desktop\GP2-NewProject\PunchyPunch\TestVR\Intermediate\Build\Win64\UE4Editor\Development\TestVR\UE4Editor-TestVR-7297.suppressed.lib and object C:\Users\u1141916\Desktop\GP2-NewProject\PunchyPunch\TestVR\Intermediate\Build\Win64\UE4Editor\Development\TestVR\UE4Editor-TestVR-7297.suppressed.exp
+HTTPControl.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AHTTPControl::Tick(float)" (?Tick@AHTTPControl@@UEAAXM@Z)
+HTTPControl.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AHTTPControl::Tick(float)" (?Tick@AHTTPControl@@UEAAXM@Z)
+C:\Users\u1141916\Desktop\GP2-NewProject\PunchyPunch\TestVR\Binaries\Win64\UE4Editor-TestVR-7297.dll : fatal error LNK1120: 1 unresolved externals
+UnrealBuildTool : error : UBT ERROR: Failed to produce item: C:\Users\u1141916\Desktop\GP2-NewProject\PunchyPunch\TestVR\Binaries\Win64\UE4Editor-TestVR-7297.dll
+                          (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+  Total build time: 43.41 seconds (Parallel executor: 0.00 seconds)
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command ""C:\Program Files\Epic Games\UE_4.20\Engine\Build\BatchFiles\Build.bat" TestVREditor Win64 Development "C:\Users\u1141916\Desktop\GP2-NewProject\PunchyPunch\TestVR\TestVR.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.
